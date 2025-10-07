@@ -14,7 +14,7 @@ get_header(); // Wczytuje plik header.php
         
         <div class="hero-video-background">
             <video playsinline autoplay muted loop poster="placeholder.jpg">
-                <source src="TWOJ_LINK_DO_PLIKU_WIDEO.mp4" type="video/mp4">
+                <source src="http://systemydk-local.local/wp-content/uploads/2025/10/Drone_Reveals_Industrial_Port_Sunrise.mp4" type="video/mp4">
                 Twoja przeglądarka nie obsługuje wideo w tle.
             </video>
         </div>
