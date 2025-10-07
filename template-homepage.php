@@ -11,6 +11,13 @@ get_header(); // Wczytuje plik header.php
 <main id="site-content">
 
     <section class="hero-section">
+        
+        <div class="hero-video-background">
+            <video playsinline autoplay muted loop poster="placeholder.jpg">
+                <source src="TWOJ_LINK_DO_PLIKU_WIDEO.mp4" type="video/mp4">
+                Twoja przeglądarka nie obsługuje wideo w tle.
+            </video>
+        </div>
         <div class="hero-content-wrapper">
             <h1 class="hero-title">Tworzymy bezpieczeństwo. Od 20 lat.</h1>
             <p class="hero-subtitle">Projektujemy i wdrażamy inteligentne systemy monitoringu i analityki AI dla biznesu i sektora publicznego.</p>
@@ -22,7 +29,6 @@ get_header(); // Wczytuje plik header.php
     </section>
 
     <?php
-    // Ta pętla jest na wszelki wypadek, gdybyśmy chcieli dodać jakąś treść z edytora poniżej sekcji Hero
     if ( have_posts() ) {
         while ( have_posts() ) {
             the_post();
