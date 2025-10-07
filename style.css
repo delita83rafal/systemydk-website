@@ -2,5 +2,74 @@
 Theme Name: SYSTEMY DK Theme
 Author: Komandor & Rafał Gniewek
 Description: Dedykowany motyw WordPress dla strony systemydk.pl, stworzony w oparciu o strategię "Twierdzy Wiarygodności".
-Version: 1.0
+Version: 1.0.1
 */
+
+/* === Podstawowe Ustawienia === */
+body {
+    margin: 0;
+    font-family: sans-serif; /* Na razie prosty font, później wczytamy ten z projektu */
+    background-color: #f0f0f0; /* Jasnoszare tło dla całej strony */
+}
+
+
+/* === Hero Section === */
+.hero-section {
+    background-color: #1A2A4D; /* Głęboki granat z palety kolorystycznej */
+    color: #FFFFFF; /* Biały tekst */
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}
+
+.hero-content-wrapper {
+    max-width: 800px;
+}
+
+.hero-title {
+    font-size: 3.2rem; /* 51px */
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1rem; /* 16px */
+}
+
+.hero-subtitle {
+    font-size: 1.25rem; /* 20px */
+    margin-bottom: 2.5rem; /* 40px */
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.hero-buttons .button {
+    margin: 0 10px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+
+.hero-buttons .button-primary {
+    background-color: #00BFFF; /* Technologiczny cyjan/turkus */
+    color: #1A2A4D; /* Kolor granatowy dla tekstu */
+}
+
+.hero-buttons .button-primary:hover {
+    background-color: #FFFFFF;
+    color: #1A2A4D;
+}
+
+.hero-buttons .button-secondary {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #00BFFF;
+}
+
+.hero-buttons .button-secondary:hover {
+    background-color: #00BFFF;
+    color: #1A2A4D;
+}
